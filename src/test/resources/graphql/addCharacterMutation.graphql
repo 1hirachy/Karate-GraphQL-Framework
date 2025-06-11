@@ -1,0 +1,7 @@
+
+mutation AddCharacter($name: String!) {
+  addCharacter(name: $name) {
+    id
+    name
+  }
+}

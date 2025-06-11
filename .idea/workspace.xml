@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6257a33b-cc5e-4831-b060-d118984866e2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/runner/GraphQLTestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/AddCharacter.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/GetCharacter.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/GraphQLHelper.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Helper.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/PerformanceSmoke.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/SchemaIntrospection.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/graphql/addCharacterMutation.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/graphql/getCharacter.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/graphql/negativeCharacter.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/karate-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logback-test.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Karate" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2xNCrPzNiqFgWGNG7lPXPs9VyrN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hira_/IdeaProjects/Karate-GraphQL-Framework&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hira_\IdeaProjects\Karate-GraphQL-Framework" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hira_\IdeaProjects\Karate-GraphQL-Framework\src\test\java\com" />
+      <recent name="C:\Users\hira_\IdeaProjects\Karate-GraphQL-Framework\src\test\resources" />
+      <recent name="C:\Users\hira_\IdeaProjects\Karate-GraphQL-Framework\src\test\java\examples\resources\features" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.GraphQLTestRunner.testGraphQL">
+    <configuration name="GraphQLTestRunner.testGraphQL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Karate-GraphQL-Framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.runner" />
+      <option name="MAIN_CLASS_NAME" value="com.example.runner.GraphQLTestRunner" />
+      <option name="METHOD_NAME" value="testGraphQL" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="features in Karate-GraphQL-Framework" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Karate-GraphQL-Framework" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/resources/features" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddCharacter" type="KarateRunConfiguration" factoryName="KarateRunConfiguration" temporary="true">
+      <option name="karatePath" value="$PROJECT_DIR$/src/test/resources/features/AddCharacter.feature" />
+      <module name="Karate-GraphQL-Framework" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddCharacter:7" type="KarateRunConfiguration" factoryName="KarateRunConfiguration" temporary="true">
+      <option name="karatePath" value="$PROJECT_DIR$/src/test/resources/features/getCharacter.feature:7" />
+      <module name="Karate-GraphQL-Framework" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetCharacter:13" type="KarateRunConfiguration" factoryName="KarateRunConfiguration" temporary="true">
+      <option name="karatePath" value="$PROJECT_DIR$/src/test/resources/features/GetCharacter.feature:13" />
+      <module name="Karate-GraphQL-Framework" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.GraphQLTestRunner.testGraphQL" />
+      <item itemvalue="JUnit.features in Karate-GraphQL-Framework" />
+      <item itemvalue="Karate.AddCharacter" />
+      <item itemvalue="Karate.GetCharacter:13" />
+      <item itemvalue="Karate.AddCharacter:7" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GraphQLTestRunner.testGraphQL" />
+        <item itemvalue="Karate.GetCharacter:13" />
+        <item itemvalue="Karate.AddCharacter" />
+        <item itemvalue="JUnit.features in Karate-GraphQL-Framework" />
+        <item itemvalue="Karate.AddCharacter:7" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6257a33b-cc5e-4831-b060-d118984866e2" name="Changes" comment="" />
+      <created>1747769345623</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747769345623</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/example/runner/GraphQLTestRunner.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

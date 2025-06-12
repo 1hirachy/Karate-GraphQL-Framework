@@ -1,4 +1,3 @@
-# --- SchemaIntrospection.feature ---
 Feature: Validate GraphQL schema
 
 Scenario: Introspect GraphQL schema

@@ -5,27 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6257a33b-cc5e-4831-b060-d118984866e2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/runner/GraphQLTestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/AddCharacter.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/GetCharacter.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/GraphQLHelper.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Helper.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/PerformanceSmoke.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/SchemaIntrospection.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/graphql/addCharacterMutation.graphql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/graphql/getCharacter.graphql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/graphql/negativeCharacter.graphql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/karate-config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/logback-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -23,9 +23,17 @@ jobs:
       - name: Check for .feature files
         run: find src/test/resources -name "*.feature"
 
-      # ✅ Debug Step 2: Check if features are copied to target/test-classes
-      - name: Check test-classes for .feature files
-        run: find target/test-classes -name "*.feature" || echo "No files found"
+#      # ✅ Debug Step 2: Check if features are copied to target/test-classes
+#      - name: Check test-classes for .feature files
+#        run: find target/test-classes -name "*.feature" || echo "No files found"
+
+      - name: Cache Maven packages
+        uses: actions/cache@v3
+        with:
+          path: ~/.m2/repository
+          key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
+          restore-keys: |
+            ${{ runner.os }}-maven-
 
       # ✅ Run Karate tests
       - name: Build and Run Tests

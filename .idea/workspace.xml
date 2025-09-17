@@ -5,27 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6257a33b-cc5e-4831-b060-d118984866e2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/runner/GraphQLTestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/AddCharacter.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/GetCharacter.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/GraphQLHelper.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Helper.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/PerformanceSmoke.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/SchemaIntrospection.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/graphql/addCharacterMutation.graphql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/graphql/getCharacter.graphql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/graphql/negativeCharacter.graphql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/karate-config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/logback-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AddCharacter.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/AddCharacter.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/GraphQLHelper.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/helpers/RequestBuilder.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Helper.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/helpers/FetchingSingleCharacter.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/PerformanceSmoke.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/PerformanceSmoke.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/graphql/negativeCharacter.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/graphql/negativeCharacter.graphql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +44,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/hira_/IdeaProjects/Karate-GraphQL-Framework&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hira_/Downloads/restassured-rickandmorty&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
@@ -70,6 +55,7 @@
       <recent name="C:\Users\hira_\IdeaProjects\Karate-GraphQL-Framework" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hira_\IdeaProjects\Karate-GraphQL-Framework\src\test\resources\helpers" />
       <recent name="C:\Users\hira_\IdeaProjects\Karate-GraphQL-Framework\src\test\java\com" />
       <recent name="C:\Users\hira_\IdeaProjects\Karate-GraphQL-Framework\src\test\resources" />
       <recent name="C:\Users\hira_\IdeaProjects\Karate-GraphQL-Framework\src\test\java\examples\resources\features" />
@@ -78,7 +64,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GraphQLTestRunner.testGraphQL">
+  <component name="RunManager" selected="Karate.AddCharacter:6">
     <configuration name="GraphQLTestRunner.testGraphQL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Karate-GraphQL-Framework" />
       <extension name="coverage">
@@ -95,14 +81,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="features in Karate-GraphQL-Framework" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Karate-GraphQL-Framework" />
-      <option name="TEST_OBJECT" value="directory" />
-      <dir value="$PROJECT_DIR$/src/test/resources/features" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AddCharacter" type="KarateRunConfiguration" factoryName="KarateRunConfiguration" temporary="true">
       <option name="karatePath" value="$PROJECT_DIR$/src/test/resources/features/AddCharacter.feature" />
       <module name="Karate-GraphQL-Framework" />
@@ -111,8 +89,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddCharacter:7" type="KarateRunConfiguration" factoryName="KarateRunConfiguration" temporary="true">
-      <option name="karatePath" value="$PROJECT_DIR$/src/test/resources/features/getCharacter.feature:7" />
+    <configuration name="AddCharacter:6" type="KarateRunConfiguration" factoryName="KarateRunConfiguration" temporary="true">
+      <option name="karatePath" value="$PROJECT_DIR$/src/test/resources/features/AddCharacter.feature:6" />
+      <module name="Karate-GraphQL-Framework" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetCharacter" type="KarateRunConfiguration" factoryName="KarateRunConfiguration" temporary="true">
+      <option name="karatePath" value="$PROJECT_DIR$/src/test/resources/features/GetCharacter.feature" />
       <module name="Karate-GraphQL-Framework" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <method v="2">
@@ -129,18 +115,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.GraphQLTestRunner.testGraphQL" />
-      <item itemvalue="JUnit.features in Karate-GraphQL-Framework" />
+      <item itemvalue="Karate.AddCharacter:6" />
+      <item itemvalue="Karate.GetCharacter" />
       <item itemvalue="Karate.AddCharacter" />
       <item itemvalue="Karate.GetCharacter:13" />
-      <item itemvalue="Karate.AddCharacter:7" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Karate.AddCharacter:6" />
         <item itemvalue="JUnit.GraphQLTestRunner.testGraphQL" />
+        <item itemvalue="Karate.GetCharacter" />
         <item itemvalue="Karate.GetCharacter:13" />
         <item itemvalue="Karate.AddCharacter" />
-        <item itemvalue="JUnit.features in Karate-GraphQL-Framework" />
-        <item itemvalue="Karate.AddCharacter:7" />
       </list>
     </recent_temporary>
   </component>

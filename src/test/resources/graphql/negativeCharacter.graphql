@@ -1,4 +1,3 @@
-// --- negativeCharacter.graphql ---
 query {
   character(id: 999999) {
     id

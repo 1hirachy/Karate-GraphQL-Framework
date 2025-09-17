@@ -4,7 +4,7 @@ Feature: Call sub-feature 5 times
     * def ids = [1, 2]
     * def results = []
 
-    * def callChar = function(id){ return karate.call('Helper.feature', { id: id }) }
+    * def callChar = function(id){ return karate.call('FetchingSingleCharacter.feature', { id: id }) }
 
     * def results = ids.map(callChar)
     * match results.length == 5

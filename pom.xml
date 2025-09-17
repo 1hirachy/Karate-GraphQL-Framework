@@ -28,7 +28,11 @@
     <build>
         <testResources>
             <testResource>
-                <directory>src/test/java</directory>
+                <directory>src/test/resources</directory>
+                <includes>
+                    <include>**/*.feature</include>
+                    <include>**/*.graphql</include>
+                </includes>
                 <excludes>
                     <exclude>**/*.java</exclude>
                 </excludes>

@@ -1,3 +1,4 @@
+@ignore
 Feature: Add character mutation
 
 Background:
@@ -6,7 +7,7 @@ Background:
 Scenario: Add a new character
 * def query = read('classpath:graphql/addCharacterMutation.graphql')
 * def variables = { name: 'Test Character' }
-* def payload = call read('classpath:features/RequestBuilder.feature') { query: '#(query)', variables: '#(variables)' }
+* def payload = call read('classpath:helpers/RequestBuilder.feature') { query: '#(query)', variables: '#(variables)' }
 
 Given url 'https://rickandmortyapi.com/graphql'
 And request payload

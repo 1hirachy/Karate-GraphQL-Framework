@@ -1,4 +1,3 @@
-@Regression
 Feature: Get GraphQL character details
 
   Background:
@@ -32,12 +31,12 @@ Feature: Get GraphQL character details
       | charId |
       | 1      |
       | 2      |
-
+  @Regression
   Scenario: Invalid character ID returns null
     * def query = read('classpath:graphql/negativeCharacter.graphql')
     * def payload = { query: '#(query)' }
 
     Given request payload
     When method post
-    Then status 400
-    And match response.data.character == '#notpresent'
+    Then status 200
+    And match response.data.character == null

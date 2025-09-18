@@ -2,7 +2,7 @@ Feature: Single GraphQL character fetch
 
   Scenario: Fetch character with id
     * def query = read('classpath:graphql/getCharacter.graphql')
-    * def variables = { id: id }
+    * def variables = { id: '#(id)' }
     * def payload = { query: '#(query)', variables: #(variables) }
 
     Given url 'https://rickandmortyapi.com/graphql'

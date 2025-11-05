@@ -8,7 +8,7 @@ public class GraphQLTestRunner {
     @Karate.Test
     Karate testGraphQL() {
 
-        return Karate.run("classpath:features").tags("Regression");
+        return Karate.run("classpath:features");
 
     }
 }
